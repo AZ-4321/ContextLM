@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Button } from '@mui/material';
 
 function App() {
   
@@ -20,6 +20,12 @@ function App() {
       Upon leaving this website, any information provided to the chatbot will not be saved and be erased.
 
       If you accept these tersms and serves please click the Agree buttton
+     </div>
+
+     <div>
+      <Button variant="contained">
+        I Accept
+      </Button>
      </div>
     </>
   )
