@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button } from '@mui/material';
+import { Button, Box } from '@mui/material';
 
 function App() {
   
@@ -8,6 +8,7 @@ function App() {
     <>
      <div>Welcome to ContextLM</div>
      <div>Please accept Terms of Service before using</div>
+     <Box sx={{ p: 2, width: 300, height: 0.05, border: '1px solid black' }}>
      <div>ContextLM is a web application inspired by NotebookLM, which allows users to upload 
       research papers and ask the app any questions for context regarding their paper. This app is not a
       replacepemtn or to be compete with NotebookLM but for learning purposes. Even though no data will be saved,
@@ -21,6 +22,7 @@ function App() {
 
       If you accept these tersms and serves please click the Agree buttton
      </div>
+     </Box>
 
      <div>
       <Button variant="contained">
