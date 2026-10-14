@@ -1,14 +1,17 @@
 import { useState } from 'react'
 import { Button, Box } from '@mui/material';
+import './App.css'
 
 function App() {
   
 
   return (
-    <>
+    < >
+    <div className='oh'>
      <div>Welcome to ContextLM</div>
      <div>Please accept Terms of Service before using</div>
-     <Box sx={{ p: 2, width: 300, height: 0.05, border: '1px solid black' }}>
+
+     <Box sx={{ p: 3, width: 300, height: 300, overflow: 'auto', border: '1px solid black' }}>
      <div>ContextLM is a web application inspired by NotebookLM, which allows users to upload 
       research papers and ask the app any questions for context regarding their paper. This app is not a
       replacepemtn or to be compete with NotebookLM but for learning purposes. Even though no data will be saved,
@@ -22,12 +25,16 @@ function App() {
 
       If you accept these tersms and serves please click the Agree buttton
      </div>
+     <Button variant="contained">
+        I Accept
+      </Button>
      </Box>
 
      <div>
-      <Button variant="contained">
-        I Accept
-      </Button>
+
+    
+
+     </div>
      </div>
     </>
   )
