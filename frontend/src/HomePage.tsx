@@ -4,7 +4,7 @@ import { Button, Box } from '@mui/material';
 function HomePage() {
     return (
     < >
-    <div className='oh'>
+    <div>
      <div>Welcome to ContextLM</div>
      <div>Please accept Terms of Service before using</div>
 
